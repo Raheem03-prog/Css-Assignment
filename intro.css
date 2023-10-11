@@ -1,13 +1,22 @@
-body{
-    background-color: rgba(245, 245, 220, 0.5);
+body{ 
+    background-image: url(./8.jpg.jfif);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    height: 100dvh;
+
+    
 }
 
 h1{
     color: white;
-    background-color: rgb(20, 102, 20);
-    height: 100%;
-    width: 120%;
+    background-color: #31ccdd;
+    padding-top: 100px;
+    padding-bottom: 50px;
     border-radius: 10px;
+    padding: 15px;
+    
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
@@ -16,7 +25,7 @@ h1{
     text-align: justify;
     text-transform: capitalize;
     text-decoration-style: wavy;
-    letter-spacing: 5px;
+    
     
 
 }
@@ -25,12 +34,11 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 
-    color: gray;
+    color: black;
 
     text-decoration: solid;
 
     margin-bottom: 20px;
-
 }
 
 h2{
@@ -44,16 +52,17 @@ h2{
     font-style: italic;
     font-weight: 700;
 
-    color:#d1c62a;
-    background-color:darkgreen;
-    border-radius: 10px;
+    color:#ffffff;
+    padding-top: 40px;
+    padding-bottom: 25px;
 }
 
 .article{
-    background-color: rgb(44, 201, 122);
+    background-color: #1847ac;
     width: 800px;
     height: 200px;
     border-radius: 10px;
+    color-interpolation-filters: sRGB;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -62,6 +71,12 @@ h2{
 
     text-align: center;
     color: #ffff;
+
+    cursor: pointer;
+
+    user-select: text;
+
+   
     
 }
 
@@ -76,10 +91,14 @@ h3{
 }
 
 footer{
+    color: #ffff;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     font-style: italic;
 
     text-align: justify
+
+    
 
 }
